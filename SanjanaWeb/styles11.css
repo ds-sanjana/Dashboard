@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f9fa60;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color:#958e8e22;
+    padding: 20px;
+    
+  }
+  
+  .sidebar .logo h2 {
+    color: #5a5cd6;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar .menu {
+    list-style: none;
+  }
+  
+  .sidebar .menu li {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .topbar {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .topbar input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #958e8e22;
+  }
+  
+  
+.container{
+    max-width: 120px;
+      
+}
+.row{
+    display: flex;
+      gap: 10px;
+}
+.column{
+    flex: 1; 
+    padding:10px;
+    
+}
+.card{
+    width:400px;
+    height:140px;
+    background-color: rgba(0, 0, 255, 0.644);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.s2{
+    color:white;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+   }
+.s3{
+    color: white;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    padding-bottom: 5px;
+}
+.s4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    font-size: x-small;
+    font-weight:900;
+    padding-bottom: 50px;
+}
+.card1{
+    width:400px;
+    height:140px;
+    background-color: rgba(0, 166, 255, 0.874);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.card2{
+    width:400px;
+    height:140px;
+    background-color: rgba(126, 18, 220, 0.721);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.card3{
+    width:400px;
+    height:140px;
+    background-color: rgba(17, 170, 116, 0.799);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+ 
+  
